@@ -1,1 +1,124 @@
+# SQL Query Results
+
+## 1. Data Quality Check
+
+### Null Values
+
+ Column             Null Count 
+ CouponCode                309 
+ All Other Columns           0 
+
+## Duplicate Check
+
+ Check                Result 
+ Duplicate Rows       0      
+ Duplicate Order IDs  0      
+
+
+## 2. Revenue Summary
+
+ Metric                       Value 
+ Total Revenue        $1,264,761.96 
+ Total Orders                 1,200 
+ Average Order Value      $1,053.97
+
+
+## 3. Revenue by Product
+
+ Product   Revenue 
+ Chair    $195,620 
+ Printer  $195,613 
+ Laptop   $192,127 
+ Tablet   $186,569 
+ Monitor  $175,651 
+ Desk     $167,460 
+ Phone    $151,722 
+
+### Insight
+
+Chair generated the highest revenue, followed closely by Printer and Laptop.
+
+
+## 4. Orders by Payment Method
+
+ Payment Method  Orders 
+ Online             258 
+ Cash               246 
+ Credit Card        234 
+ Debit Card         232 
+ Gift Card          230 
+
+### Insight
+
+Online payments recorded the highest transaction volume.
+
+
+## 5. Orders by Referral Source
+
+ Referral Source  Orders 
+ Instagram           259 
+ Email               250 
+ Google              241 
+ Facebook            228 
+ Referral            222 
+
+### Insight
+
+Instagram was the most effective customer acquisition channel.
+
+
+## 6. Revenue by Coupon
+
+ Coupon      Revenue 
+ FREESHIP   $335,037 
+ No Coupon  $322,401 
+ SAVE10     $304,840 
+ WINTER15   $302,484 
+
+### Insight
+
+FREESHIP generated the highest revenue among all promotional campaigns.
+
+
+## 7. Revenue by Year
+
+ Year      Revenue 
+ 2023  $552,643.24 
+ 2024  $480,235.87 
+ 2025  $231,882.85 
+
+### Year-over-Year Growth
+
+ Period        Growth 
+ 2024 vs 2023  -13.1% 
+ 2025 vs 2024  -51.7% 
+
+### Insight
+
+Revenue declined over the observed period and requires further investigation.
+
+
+## 8. Order Status Analysis
+
+ Status     Orders 
+ Cancelled     250 
+ Returned      247 
+ Pending       237 
+ Shipped       235 
+ Delivered     231 
+
+### Insight
+
+Cancelled and returned orders totaled 497 transactions, representing 41.4% of all orders.
+
+
+## Key Insights.
+
+* Total revenue $1.265 million.
+* Chair was the top-performing product.
+* Instagram generated the highest number of orders.
+* FREESHIP was the most effective coupon.
+* Online payment was the preferred payment method.
+* Revenue showed a declining trend.
+* Cancellation and return rates were unusually high and require business attention.
 
